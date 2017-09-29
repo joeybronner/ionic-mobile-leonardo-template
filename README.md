@@ -8,8 +8,8 @@ Template for multi platform mobile applications for Leonardo Center Paris team.
 
 Links:
 
-[Ionic Components](https://ionicframework.com/docs/api/components)
-[Consuming REST API](https://www.djamware.com/post/58b6e81980aca7432b5ff57a/ionic-2-consuming-rest-api)
+[Ionic Components](https://ionicframework.com/docs/api/components). 
+[Consuming REST API](https://www.djamware.com/post/58b6e81980aca7432b5ff57a/ionic-2-consuming-rest-api). 
 
 ### Install:
 
