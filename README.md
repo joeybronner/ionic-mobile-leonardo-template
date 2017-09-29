@@ -1,26 +1,51 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+# Leonardo Center Paris - Mobile App Template
 
-## How to use this template
+Template for multi platform mobile applications for Leonardo Center Paris team.
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+#### Preview
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+<img src="./preview.png" />
 
-### With the Ionic CLI:
+Links:
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+[Ionic Components](https://ionicframework.com/docs/api/components)
+[Consuming REST API](https://www.djamware.com/post/58b6e81980aca7432b5ff57a/ionic-2-consuming-rest-api)
+
+### Install:
 
 ```bash
 $ sudo npm install -g ionic cordova
-$ ionic start mySideMenu sidemenu
 ```
 
-Then, to run it, cd into `mySideMenu` and run:
+### Run
+
+```bash
+$ ionic serve --lab
+```
+
+### Evolution 
+
+Create a new page: [Tutorial](http://blog.ionic.io/10-minutes-with-ionic-2-adding-pages-and-navigation/)  
+Don't forget to modify the **src/app/app.module.ts**. 
+
+```bash
+$ ionic g page <pagename>
+```
+
+### Deploy
+
+##### Android
+
+Plug an Android phone to your USB
+
+```bash
+$ ionic cordova platform add android
+$ ionic cordova run android
+```
+
+##### iOS
 
 ```bash
 $ ionic cordova platform add ios
 $ ionic cordova run ios
 ```
-
-Substitute ios for android if not on a Mac.
-

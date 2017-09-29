@@ -14,3 +14,22 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+@font-face {
+  font-family: 'BentonSansLight';
+  src: local('BentonSans'), local('BentonSans'), url(../assets/fonts/bentonsans/BentonSans-Thin.ttf) format('woff2');
+}
+
+.black {
+	background: black;
+	color: white;
+}
+
+.yellow {
+	background: #f0AB00;
+	color: black;
+}
+
+.divider {
+	border-bottom: 1px solid #f0AB00;
+}
